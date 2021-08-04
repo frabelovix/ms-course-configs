@@ -25,3 +25,4 @@ docker run -P --network hr-net hr-oauth:v1
 
 ---Subir o servço do api gateway zuul
 docker run -p 8765:8765 --name hr-api-gateway-zuul --network hr-net hr-api-gateway-zuul:v1
+
